@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Edulearn</title>
+</head>
+<style>
+    body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+    }
+    .main{
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .topnav {
+            overflow: hidden;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            display: flex;
+}
+
+.topnav a {
+
+  color: black;
+  text-align: center;
+  padding: 14px 50px ;
+  text-decoration: none;
+  font-size: 17px;
+ display: flex;
+  }
+
+.topnav a:hover {
+
+  color: black;
+}
+
+.topnav a.active {
+  color:  rgb(159, 107, 255) ;
+}
+
+.logo{
+    justify-content: center;
+    align-items: center;
+}
+
+.mainbox1{
+    display: flex;
+    width: auto;
+    height: 50rem;
+ 
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 70px;
+}
+
+.words1{
+ font-size: 30px;
+}
+
+.girlimg{
+   display: flex;
+   flex-direction: row;
+ }
+
+ .imgresponsive{
+     width: 100%;
+     height: auto;
+ }
+
+@media screen and (max-width: 600px) {
+    
+.topnav a{
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .topnav{
+      flex-direction: column;
+      }
+
+      .mainbox1{
+          display: flex;
+          flex-direction: column;
+     }
+
+     .row{
+         flex-direction: column;
+         margin: 10px 0;
+         align-items:center;
+         width: 100%;
+         box-sizing: border-box;
+     }
+
+     h1{
+       font-size: auto;
+     }
+}
+
+   
+</style>
+<body>
+    <div class="main">
+        <div class="topnav">
+            <a class="active logo" href="#home"> <img src="img/light.png" alt="noo" width="100px" height="70px">
+              Edulearn 
+             <a href="#contact"><span style="color: rgb(159, 107, 255); margin-top: 10px;"> HOME</span></a>
+            <a href="#about"> course </a>
+            <a href="#contact"> mentor </a>
+            <a href="#about"> Pricing </a>
+            <a href="#about"> Blog </a>
+          </div>
+<div class="mainbox">
+</div>
+</div>
+<div class="mainbox1">
+<div class="row">
+   <div class="words1">
+   <b>
+    
+              <h2>Let's Learn New<br>   
+              Coures & Gains <br>
+              More Skills</h2></b> 
+             
+<span style="color: gray; font-size: 20px;">A learing plantform based on partical with <br>
+                    best & world class mentor</span>
+                 
+        </div>
+        <div>
+       </div>
+       
+       <div class="girlimg">
+        <img  src="img/girl pic.png" class="imgresponsive" alt="no img" height="500px">
+     </div> 
+    
+     </div>
+</body>
+</html>
